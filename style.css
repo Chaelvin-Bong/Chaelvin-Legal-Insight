@@ -202,13 +202,6 @@ body {
   border-radius: 10px;
 }
 
-.menuToggle {
-  display: none;
-  font-size: 1.8rem;
-  cursor: pointer;
-  padding-right: 35px;
-}
-
 .searchBox {
   text-align: center;
   margin: 20px 0;

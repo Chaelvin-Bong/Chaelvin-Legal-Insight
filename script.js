@@ -9,36 +9,39 @@ document.querySelectorAll('.navbarText').forEach(link => {
   });
 });
 
-const searchInput = document.getElementById('searchInput');
-const cards = document.querySelectorAll('.articlesCard');
 
-searchInput.addEventListener('keyup', function () {
+// SEARCH ARTIKEL
+const articleSearchInput = document.getElementById('searchInput');
+const articleCards = document.querySelectorAll('.articlesCard');
+
+articleSearchInput.addEventListener('keyup', function () {
   const keyword = this.value.toLowerCase();
 
-  cards.forEach(card => {
+  articleCards.forEach(card => {
     const text = card.innerText.toLowerCase();
 
     if (text.includes(keyword)) {
-      card.parentElement.style.display = 'block'; // show
+      card.style.display = 'block';
     } else {
-      card.parentElement.style.display = 'none'; // hide
+      card.style.display = 'none';
     }
   });
 });
 
-const searchInput = document.getElementById('searchInputV');
-const cards = document.querySelectorAll('.videosCard');
+// SEARCH VIDEO
+const videoSearchInput = document.getElementById('searchInputV');
+const videoCards = document.querySelectorAll('.videosCard');
 
-searchInput.addEventListener('keyup', function () {
+videoSearchInput.addEventListener('keyup', function () {
   const keyword = this.value.toLowerCase();
 
-  cards.forEach(card => {
+  videoCards.forEach(card => {
     const text = card.innerText.toLowerCase();
 
     if (text.includes(keyword)) {
-      card.parentElement.style.display = 'block'; // show
+      card.style.display = 'block';
     } else {
-      card.parentElement.style.display = 'none'; // hide
+      card.style.display = 'none';
     }
   });
 });
