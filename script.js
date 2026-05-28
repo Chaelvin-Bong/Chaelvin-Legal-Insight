@@ -25,3 +25,20 @@ searchInput.addEventListener('keyup', function () {
     }
   });
 });
+
+const searchInput = document.getElementById('searchInputV');
+const cards = document.querySelectorAll('.card');
+
+searchInput.addEventListener('keyup', function () {
+  const keyword = this.value.toLowerCase();
+
+  cards.forEach(card => {
+    const text = card.innerText.toLowerCase();
+
+    if (text.includes(keyword)) {
+      card.parentElement.style.display = 'block'; // show
+    } else {
+      card.parentElement.style.display = 'none'; // hide
+    }
+  });
+});
