@@ -165,6 +165,23 @@ body {
   font-size: 1rem;
 }
 
+/* Video */
+.video {
+  padding: 40px 20px;
+  overflow: visible;
+}
+
+.video h2 {
+  text-align: center;
+}
+
+.videosGrid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 /* MOBILE */
 @media (max-width: 768px) { 
 .navbar {
