@@ -111,7 +111,17 @@ body {
   text-align: center;
 }
 
-.card {
+.articlesCard {
+  background-color: #1a1a1a;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.videosCard {
   background-color: #1a1a1a;
   padding: 20px;
   margin: 20px auto;
@@ -138,7 +148,7 @@ body {
   flex-wrap: wrap;
 }
 
-.articlesGrid .card {
+.articlesGrid .articlesCard {
   max-width: 300px;
 }
 
@@ -181,7 +191,7 @@ body {
   flex-wrap: wrap;
 }
 
-.videosGrid .card {
+.videosGrid .videosCard {
   max-width: 300px;
 }
 

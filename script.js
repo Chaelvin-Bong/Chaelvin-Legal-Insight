@@ -10,7 +10,7 @@ document.querySelectorAll('.navbarText').forEach(link => {
 });
 
 const searchInput = document.getElementById('searchInput');
-const cards = document.querySelectorAll('.card');
+const cards = document.querySelectorAll('.articlesCard');
 
 searchInput.addEventListener('keyup', function () {
   const keyword = this.value.toLowerCase();
@@ -27,7 +27,7 @@ searchInput.addEventListener('keyup', function () {
 });
 
 const searchInput = document.getElementById('searchInputV');
-const cards = document.querySelectorAll('.card');
+const cards = document.querySelectorAll('.videosCard');
 
 searchInput.addEventListener('keyup', function () {
   const keyword = this.value.toLowerCase();
