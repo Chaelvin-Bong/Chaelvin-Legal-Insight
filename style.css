@@ -195,6 +195,13 @@ body {
   max-width: 300px;
 }
 
+.videosCard video {
+  width: 100%;
+  max-width: 320px;
+  aspect-ratio: 9 / 16;
+  border-radius: 10px;
+}
+
 .menuToggle {
   display: none;
   font-size: 1.8rem;
@@ -274,4 +281,8 @@ body {
   width: 90%; 
   max-width: 400px; 
   } 
+
+.videosGrid {
+  grid-template-columns: 1fr;
+}
 }
